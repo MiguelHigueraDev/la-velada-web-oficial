@@ -59,6 +59,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 87,
 		height: 1.95,
 		country: "mx",
+		countryName: "México",
 		versus: "plex",
 		guard: "Izquierda",
 		reach: 168,
@@ -88,6 +89,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 65, // No encontrado
 		height: 1.7, // No es seguro
 		country: "es",
+		countryName: "España",
 		versus: ["alana", "ama-blitz"],
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -107,6 +109,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 55,
 		height: 1.7,
 		country: "mx",
+		countryName: "México",
 		versus: ["nissaxter", "zeling"],
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -130,6 +133,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 93,
 		height: 1.88,
 		country: "cl",
+		countryName: "Chile",
 		versus: "viruzz",
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -149,6 +153,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 85,
 		height: 1.82,
 		country: "es",
+		countryName: "España",
 		versus: "shelao",
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -169,6 +174,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 55, // No es seguro
 		height: 1.58,
 		country: "mx",
+		countryName: "México",
 		versus: ["zeling", "nissaxter"],
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -188,6 +194,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 85, // No encontrado
 		height: 1.84,
 		country: "es",
+		countryName: "España",
 		socials: {},
 		versus: "rey-de-la-pista",
 	},
@@ -199,6 +206,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 87, // No encontrado
 		height: 1.91, // No es seguro
 		country: "es",
+		countryName: "España",
 		socials: {},
 		versus: "rey-de-la-pista",
 	},
@@ -210,6 +218,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 80, // No encontrado
 		height: 1.79,
 		country: "mx",
+		countryName: "México",
 		socials: {},
 		versus: "rey-de-la-pista",
 	},
@@ -221,6 +230,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 85, // No encontrado
 		height: 1.85, // No encontrado
 		country: "do",
+		countryName: "República Dominicana",
 		socials: {},
 		versus: "rey-de-la-pista",
 	},
@@ -232,6 +242,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 87,
 		height: 1.77,
 		country: "es",
+		countryName: "España",
 		socials: {},
 		versus: "rey-de-la-pista",
 	},
@@ -243,6 +254,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 75, // No encontrado
 		height: 1.69, // No es seguro
 		country: "ar",
+		countryName: "Argentina",
 		socials: {},
 		versus: "rey-de-la-pista",
 	},
@@ -254,6 +266,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 85, // No es seguro
 		height: 1.91,
 		country: "co",
+		countryName: "Colombia",
 		socials: {},
 		versus: "rey-de-la-pista",
 	},
@@ -266,6 +279,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 85, // No encontrado
 		height: 1.69, // No es seguro
 		country: "mx",
+		countryName: "México",
 		socials: {},
 		versus: "rey-de-la-pista",
 	},
@@ -277,6 +291,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 83, // No encontrado
 		height: 1.83, // No encontrado
 		country: "es",
+		countryName: "España",
 		socials: {},
 		versus: "rey-de-la-pista",
 	},
@@ -288,6 +303,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 71,
 		height: 1.8,
 		country: "es",
+		countryName: "España",
 		socials: {},
 		versus: "rey-de-la-pista",
 		rotate: true,
@@ -300,6 +316,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 70,
 		height: 1.97,
 		country: "es",
+		countryName: "España",
 		versus: "el-mariana",
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -333,6 +350,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 55, // No es seguro
 		height: 1.64,
 		country: "es",
+		countryName: "España",
 		versus: ["alana", "ama-blitz"],
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -353,6 +371,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 85,
 		height: 1.88,
 		country: "es",
+		countryName: "España",
 		versus: "la-cobra",
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -373,6 +392,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 105,
 		height: 1.83,
 		country: "ar",
+		countryName: "Argentina",
 		versus: "guanyar",
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -392,6 +412,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 62, // No es seguro
 		height: 1.7,
 		country: "es",
+		countryName: "España",
 		versus: "carreraaa",
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
@@ -411,6 +432,7 @@ export const BOXERS: Boxer[] = addGetters([
 		weight: 61,
 		height: 1.65,
 		country: "ar",
+		countryName: "Argentina",
 		versus: "agustin-51",
 		guard: "Izquierda", // encontrado
 		reach: 168, // No encontrado
